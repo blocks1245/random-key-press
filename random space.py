@@ -5,11 +5,11 @@ from time import sleep
 
 
 root = Tk()
-root.title("random space presser")
+root.title("random key presser")
 root.geometry("400x240")
 
 def space():
-    pag.press('space')
+    pag.press('space')#the key being pressed
     timer()
 
 def timer():
